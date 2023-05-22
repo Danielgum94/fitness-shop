@@ -17,7 +17,7 @@ export default function ProductList() {
               <ProductConsumer>
                 {(val) => {
                   return products.map((product) => {
-                    return <Product key={product.id} product={product} 
+                    return <Product key={product.id} product={product } setProducts= {setProducts}
                      />;
                   });
                 }}
