@@ -1,0 +1,55 @@
+/* Set background color of the entire page */
+body {
+    background-color: #f1f1f1;
+  }
+  
+  /* Center the content vertically and horizontally */
+  .body-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Set the height to 80% of the viewport height */
+    border: 1px solid black;
+    border-radius: 3px;
+    font-style: italic;
+    background-color: #fff;
+    max-width: 300px; /* Set the maximum width of the square */
+    margin: auto; /* Center the square horizontally */
+    margin-top: 10vh; /* Add some margin at the top */
+    margin-bottom: 10vh; /* Add some margin at the bottom */
+  }
+  
+  /* Style the input field */
+  .hp-inp {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: #ececec; 
+    box-sizing: border-box; 
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+  }
+  
+  /* Style the submit button */
+  #sub-btn {
+    background-color: #ff5733;
+    width: 100%;
+    max-width: 200px; /* Set the maximum width of the button */
+    margin: 15px auto 0; /* Center the button horizontally and add some margin on top */
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none; /* Remove the outline when the element is focused */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+  }
+  
+  /* Style the name and email labels */
+  .nameEmail {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
