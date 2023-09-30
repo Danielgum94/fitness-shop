@@ -42,69 +42,65 @@ export default function Contact() {
     };
   
     return (
-        <div className="container">
-          <div style={{margin: ''}} className="text-center mt-5 mb-0">
-            <h1 id="contact-header">Contact Us</h1>
-          </div>
-          <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '60vh' }}>
-            <form className="contact-form bg-white p-4 shadow" ref={form} onSubmit={sendEmail}>
-              <div className="form-group">
-                <label htmlFor="name" className="label-c">Name:</label>
-                <input
-                  className="form-control"
-                  id="name"
-                  name="user_name"
-                  type="text"
-                  placeholder="Name.."
-                  style={{ maxWidth: '300px' }}
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email" className="label-c">Email:</label>
-                <input
-                  className="form-control"
-                  id="email"
-                  name="user_email"
-                  type="email"
-                  placeholder="Email.."
-                  style={{ maxWidth: '300px' }}
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message" className="label-c">Message:</label>
-                <textarea
-                  name="message"
-                  className="form-control"
-                  id="message"
-                  cols={5}
-                  rows={5}
-                  placeholder="Your message.."
-                  style={{ maxWidth: '300px' }}
-                ></textarea>
-              </div>
-              <div className="form-group">
-              <label htmlFor="attachment">Attachment:</label>
-                <input
-                  className="btn btn-primary custom-upload-button form-group text-center"
-                  type="file"
-                  name="attachment"
-                  id="attachment"
-                  style={{ display: 'block', margin: '5px'}}
-                  onClick={handleUploadClick}
-                />
-              </div>
-              <div className="form-group text-center">
-                <input
-                  id="send-btn"
-                  className="btn btn-primary"
-                  type="submit"
-                  value="Send"
-                />
-              </div>
-            </form>
-          </div>
+      <div className="container">
+        <div className="text-center mt-5 mb-4">
+          <h1 id="contact-header" className="text-primary">Contact Us</h1>
         </div>
-      );
-      
-      
+        <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '60vh' }}>
+          <form className="contact-form bg-light p-5 shadow rounded" ref={form} onSubmit={sendEmail}>
+            <div className="form-group">
+              <label htmlFor="name" className="label-c text-primary">Name:</label>
+              <input
+                className="form-control"
+                id="name"
+                name="user_name"
+                type="text"
+                placeholder="Name.."
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="email" className="label-c text-primary">Email:</label>
+              <input
+                className="form-control"
+                id="email"
+                name="user_email"
+                type="email"
+                placeholder="Email.."
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="message" className="label-c text-primary">Message:</label>
+              <textarea
+                name="message"
+                className="form-control"
+                id="message"
+                cols={5}
+                rows={5}
+                placeholder="Your message.."
+              ></textarea>
+            </div>
+            <div className="form-group">
+              <label htmlFor="attachment" className="text-primary">Attachment:</label>
+              <input
+                className="btn btn-primary custom-upload-button form-group text-center"
+                type="file"
+                name="attachment"
+                id="attachment"
+                style={{ display: 'block', margin: '5px' }}
+                onClick={handleUploadClick}
+/>
+
+            </div>
+            <div className="form-group text-center">
+              <input
+                id="send-btn"
+                className="btn btn-primary btn-lg"
+                type="submit"
+                value="Send"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    );
     }
