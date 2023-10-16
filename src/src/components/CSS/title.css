@@ -1,0 +1,53 @@
+
+body {
+    background-image: url('23964.jpg');
+  }
+  
+
+#s{
+    
+    width: 25px;
+    margin: 1px;
+    margin-top: -20px;
+    color: white;
+}
+
+#s:hover {
+    color: rgba(0, 0, 0, 0.65);
+    cursor:auto
+}
+
+
+
+
+.sec-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(74, 146, 177);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    margin: 10px auto;
+}
+  
+  .main-btn{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .main-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
