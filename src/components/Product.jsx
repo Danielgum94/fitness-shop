@@ -6,6 +6,7 @@ import { FaShekelSign } from 'react-icons/fa';
 
 
 
+
 export default function Product(props) {
   const { id, title, img, price, inCart } = props.product;
 

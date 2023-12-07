@@ -111,10 +111,10 @@ export default function NavBar() {
               </Link>
             </CartButtonWrapper>
 
-            <a href="https://www.instagram.com/danielgum35/" target="_blank" rel="noopener noreferrer" className="navbar-brand">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="navbar-brand">
               <FaInstagram />
             </a>
-            <a style={{ marginRight: '-0.5rem' }} href="https://www.facebook.com/daniel.gumnik/" target="_blank" rel="noopener noreferrer" className="navbar-brand">
+            <a style={{ marginRight: '-0.5rem' }} href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="navbar-brand">
               <FaFacebook />
             </a>
           </NavWrapper>

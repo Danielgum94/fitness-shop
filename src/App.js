@@ -1,17 +1,20 @@
 import './App.css';
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import React from 'react';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import NavBar from './components/NavBar'
 import ProductList from './components/ProductList'
 import Cart from './components/Cart/Cart'
 import Details from './components/Details'
-import Default from './components/Default'
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
 import Discount from './components/Discount';
 import Modal from './components/Modal';
 import Payment from './components/Payment';
+import Footer from './components/Footer';
+import Policy from './components/Policy';
+import Terms from './components/Terms';
+
 
 
 
@@ -28,9 +31,11 @@ function App() {
           <Route path="/details" element={<Details />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/payment" element={<Payment />} />
-          <Route path="*" element={<Default />} />
+          <Route path='/policy' element = {<Policy/>} />
+          <Route path='/terms' element = {<Terms/>} />
         </Routes>
         <Modal />
+        <Footer/>
       </BrowserRouter>
     </React.Fragment>
   );

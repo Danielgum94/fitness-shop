@@ -112,7 +112,7 @@ export const storeProducts = [
   {
     id: 10,
     title: "Item-10",
-    img: "img/product-6.png",
+    img: "img/product-10.png",
     price: 109,
     company: "FitnesShop",
     info:
@@ -124,7 +124,7 @@ export const storeProducts = [
   {
     id: 11,
     title: "Item-11",
-    img: "img/product-4.png",
+    img: "img/product-11.png",
     price: 109,
     company: "FitnesShop",
     info:
@@ -136,7 +136,7 @@ export const storeProducts = [
   {
     id: 12,
     title: "Item-12",
-    img: "img/product-8.png",
+    img: "img/product-12.png",
     price: 109,
     company: "FitnesShop",
     info:

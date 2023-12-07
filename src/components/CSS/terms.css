@@ -1,0 +1,37 @@
+/* terms.css */
+
+/* Styles for the container holding the terms */
+.terms-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height based on your requirement */
+  }
+  
+  /* Styles for the scrollable box */
+  .terms-box {
+    max-height: 70vh; /* Adjust the maximum height of the box */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Add a border for visual clarity */
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  /* Styles for the content inside the scrollable box */
+  .terms-content {
+    /* Add styles for the content */
+    font-size: 14px;
+  }
+  
+  /* Styles for the header of the terms */
+  .terms-header {
+    /* Add styles for the header */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Styles for different sections of the terms */
+  .terms-section {
+    /* Add styles for section headers */
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
